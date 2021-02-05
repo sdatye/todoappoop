@@ -1,8 +1,12 @@
 h1{
     text-align: center;
-    color: aquamarine;
+    color: rgb(49, 153, 118);
 }
 
 #todoDiv{
     text-align: center;
+}
+
+input[id*="chk-"]:checked+label{
+text-decoration:line-through;
 }
